@@ -38,6 +38,8 @@ Pronóstico SARIMA (billones de pesos; 1 billón = un millón de millones):
 - No se alcanza la meta más exigente (20% de mejora sobre la mejor regla simple): la prueba de Diebold-Mariano no encuentra diferencias significativas entre SARIMA y la deriva a 6 meses.
 - El saldo tiene mucha inercia; la inflación, el tipo de cambio y la tasa aportan poco.
 
+> **Nota de reproducibilidad:** las cifras anteriores corresponden a la ejecución local de octubre de 2026. Al reejecutar el notebook en Colab, las métricas de XGBoost pueden diferir levemente (menos de 0,2 puntos porcentuales de MAPE) por la versión de la librería y la plataforma; el pronóstico central de SARIMA coincide y las conclusiones no cambian.
+
 El detalle completo está en [`docs/Informe_Final_Juarez_Pablo_Nicolas.pdf`](docs/Informe_Final_Juarez_Pablo_Nicolas.pdf).
 
 ## Estructura del repositorio
